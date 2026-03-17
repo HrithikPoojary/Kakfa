@@ -13,6 +13,14 @@ To list the Topics
 >--list \
 >--bootstrap-server localhost:9092
 
+To See the messages in the topic
+
+>bin/kafka-console-consumer.sh \
+--topic invoices \
+--from-beginning \
+--bootstrap-server localhost:9092
+
+
 
 To check topics in folders
 
